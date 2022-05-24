@@ -1,0 +1,193 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+
+}
+body{
+  background-image: linear-gradient(to right,
+                                      #1aedb5 0%,
+                                      rgb(26, 237, 181) 45%,
+                                    white 45%,
+                                    white 100% );
+}
+.container{
+  position:relative;
+  width: 60%;
+  height: 70vh;
+  /* background-image: linear-gradient(to right,green 40%,white 60%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  box-shadow:0px 0px 200px 1px rgba(0,0,0,0.5);
+}
+.fa-brands{
+  font-size: 80px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.brand{
+margin-right:70px;
+/* background-color: rgb(24, 232, 24); */
+}
+
+.login-form{
+  padding-left: 20px;
+}
+.main-heading{
+  font-size: 20px;
+  font-weight: 600;
+ 
+}
+
+.sub-heading{
+  margin-top: 20px;
+  margin-left: -20px;
+  font-weight: 600;
+}
+.help{
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-weight: 500;
+
+}
+
+.login-heading{
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  margin-top: -30px;
+  text-align: center;
+}
+.lebal{
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+.forgot{
+  position: absolute;
+  right: 210px;
+  font-weight: 500;
+}
+
+.button{
+  display: block;
+  width: 270px;
+  margin-top: 50px;
+  background-color:    rgb(26, 237, 181);
+  border-radius: 5px;
+ border: none;
+  height: 30px;
+  font-weight: 600;
+}
+
+.inputTag{
+  width: 270px;
+}
+
+.validation{
+  font-size: 12px;
+  color: red;
+  margin-top: 5px;
+}
+
+@media (max-width:700px){
+  body{
+    background-image: linear-gradient(to bottom,
+                                        #1aedb5 0%,
+                                        rgb(26, 237, 181) 45%,
+                                      white 45%,
+                                      white 100% );
+  }
+  .container{
+    width: 90%;
+    height: auto;
+    padding-bottom: 30px;
+    margin-bottom: 50px;
+  }
+  .fa-brands{
+    font-size: 60px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    margin-left: 105px;
+    display: block;
+  }
+
+  .main-heading{
+    font-size: 20px;
+    font-weight: 600;
+     margin-left:85px;
+   
+  }
+  
+  .sub-heading{
+    margin-top: 20px;
+    margin-left: 65px;
+    font-weight: 600;
+  }
+  .help{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 12px;
+    font-weight: 500;
+  
+  }
+  
+  .login-heading{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top:20px;
+    text-align: center;
+  }
+  .lebal{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 10px 0px;
+  }
+  .forgot{
+    position: absolute;
+    right: 20px;
+    font-weight: 500;
+  }
+  
+  .button{
+    display: block;
+    width: 270px;
+    margin-top: 70px;
+    background-color:    rgb(26, 237, 181);
+    border-radius: 5px;
+    border: 1px solid black;
+    
+    height: 30px;
+    font-weight: 600;
+  }
+  
+  .inputTag{
+    width: 260px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    
+  }
+  
+  .validation{
+    font-size: 12px;
+    color: red;
+    margin-top: 5px;
+  }
+  
+
+  
+  
+
+}
+
+
